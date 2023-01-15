@@ -1,0 +1,20 @@
+.card {
+  background: #321337;
+  transition: translate ease-in-out 100ms, box-shadow ease-in-out 100ms;
+  &:hover,
+  &:focus {
+    translate: 0 -5px;
+    box-shadow: 0 5px 8px 0 rgba(255, 249, 249, 0.2);
+  }
+
+  .deleteCard {
+    font-size: 25px;
+    transition: all ease-in-out 0.2s;
+    color: yellow;
+
+    &:hover {
+      color: red;
+      transform: scale(1.2);
+    }
+  }
+}
